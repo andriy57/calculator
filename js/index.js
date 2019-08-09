@@ -8,9 +8,9 @@ document
 .querySelectorAll(`.opers button`);
 .forEach( oper => oper.addEventListener(`click`, onkeyPress))
 
+document.querySelector(`.equal`).addEventListener(`click`, digitPressed
+display. value = eval
+)
 function digitPressed(ev) {
  display.value += ev.target.value;
 }
-document.querySelector(`.equal`).addEventListener(`click`, eq
-display. value = eval
-)
